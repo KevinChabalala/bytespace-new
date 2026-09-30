@@ -3,6 +3,9 @@ import LogoStrip from "@/components/home/LogoStrip";
 import CourseSection from "@/components/home/CourseSection";
 import LearningPaths from "@/components/home/LearningPaths";
 import ProfessionalGrowth from "@/components/home/ProfessionalGrowth";
+import CreatorCTA from "@/components/home/CreatorCTA";
+import Testimonials from "@/components/home/Testimonials";
+import Footer from "@/components/home/Footer";
 
 export default function Home() {
   return (
@@ -12,6 +15,9 @@ export default function Home() {
       <CourseSection />
       <LearningPaths />
       <ProfessionalGrowth />
+      <CreatorCTA />
+      <Testimonials />
+      <Footer />
     </>
   );
 }
